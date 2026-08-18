@@ -681,6 +681,10 @@ input, textarea { font-family: inherit; font-size: 1rem; }
   .footer-grid { grid-template-columns: 1fr; padding: 56px 0 40px; }
 
   .contact-form { padding: 28px 22px; }
+  img{
+    object-fit: contain;
+    height: 80%;
+  }
 }
 
 @media (max-width: 440px) {
